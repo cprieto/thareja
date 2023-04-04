@@ -34,6 +34,14 @@ Node* ll_create(int num, ...) {
     return root;
 }
 
+int ll_length(Node* head) {
+    int count = 0;
+    for (Node* current = head; current != NULL; current = current->next) {
+        count++;
+    }
+    return count;
+}
+
 //
 //void ll_print(Node* root) {
 //    Node* current = root;

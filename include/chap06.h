@@ -15,6 +15,18 @@ typedef struct node
  */
 Node* ll_create(int num, ...);
 
+/**
+ * Gives the length of a linked list
+ * @param head start of linked list
+ * @return length of the given linked list
+ */
+int ll_length(Node* head);
+
+
+/**
+ *
+ */
+
 //void print_ll(Node*);
 //Node* prepend_ll(Node*);
 //Node* append_ll(Node*);
